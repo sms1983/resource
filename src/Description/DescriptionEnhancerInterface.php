@@ -13,9 +13,6 @@ namespace Symfony\Cmf\Component\Resource\Description;
 
 use Symfony\Cmf\Component\Resource\Puli\Api\PuliResource;
 
-/**
- * @internal
- */
 interface DescriptionEnhancerInterface
 {
     /**
