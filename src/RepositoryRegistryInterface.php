@@ -45,7 +45,7 @@ interface RepositoryRegistryInterface
      *
      * @return ResourceRepository
      */
-    public function get(string $repositoryName = null);
+    public function get(string $repositoryName = null, string $name = null);
 
     /**
      * Return the name assigned to the given resource repository.
